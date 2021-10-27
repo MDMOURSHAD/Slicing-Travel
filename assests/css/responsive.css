@@ -326,16 +326,51 @@
 }
 
 @media screen and (max-width: 575px){
-	/*.container {
+	.container {
 	    max-width: 100%;
 	    padding-left: 15px;
 	    padding-right: 15px;
 	}
 	.navbar .nav-wrapper {
-	    gap: 40px;
 	    padding: 30px 15px;
 	}
-	.home-wrapper .box-wrapper {
+	.testi-wrapper .col-slider-testi {
+	    padding-left: 0px;
+	}
+	section.banner2 {
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+	.product-wrapper .row1 {
+	    flex-direction: column;
+	}
+	.title-product {
+	    text-align: center;
+	    margin-bottom: 30px;
+	}
+    .toggle-slider {
 	    width: 100%;
-	}*/
+	    text-align: right;
+	}
+	.content-banner2 .disc {
+	    width: auto;
+	    font-size: 20px;
+	    padding: 15px 60px;
+	}
+	.btn-banner2 .btn-regis {
+	    font-size: 18px;
+	    padding: 16px 40px;
+	}
+	.footer {
+	    margin-top: 75px;
+	    overflow: hidden;
+	}
+	.footer-wrapper {
+	    padding-bottom: 60px;
+	}
+	.banner1.container {
+	    margin-left: 15px;
+	    margin-right: 15px;
+	}
+		
 }
