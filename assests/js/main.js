@@ -1,28 +1,30 @@
+
+// Toggle Menu
 let menuOpen = document.querySelector('.menu-toggle');
 let menuWrapper = document.querySelector('.menu-wrapper')
 
-menuOpen.addEventListener('click',function(){
+menuOpen.addEventListener('click', function () {
 
-	menuOpen.classList.toggle('bx-x');
-	menuWrapper.classList.toggle('active')
+  menuOpen.classList.toggle('bx-x');
+  menuWrapper.classList.toggle('active')
 
 });
 
-import Swiper from 'swiper/swiper-bundle.esm.js';
-    import 'swiper/swiper-bundle.css';
-    var swiper = new Swiper('.swiper', {
-      effect: 'coverflow',
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: '3',
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-      },
+$(document).ready(function($) {
+
+/*-- Menu Sticky --*/
+var windows = $(window);
+var sticky = $('.header-sticky')
+windows.on('scroll', function() {
+  var scroll = windows.scrollTop();
+  if (scroll < 150) {
+    sticky.removeClass('stick');
+  } else {
+    sticky.addClass('stick');
+  }
+});
+
+$(".toggle-menu-icon").click(function(){
+  $(".menu").slideToggle();
+})
 });

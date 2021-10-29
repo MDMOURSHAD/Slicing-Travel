@@ -1,376 +1,540 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
 
-@media screen and (max-width: 1599px){
-	.container{
+@media screen and (max-width: 1599px) {
+	.container {
 		max-width: 1140px;
 	}
-	.menu-wrapper .btn-member{
-		padding: 20px 35px;
+	.menu-wrapper .btn-member {
+		padding: 15px 35px;
 	}
 	.content-left .form-panel {
-	    width: 100%;
+		width: 100%;
 	}
 	.home-wrapper .content-right {
-	    display: flex;
-	    align-items: center;
-	    justify-content: center;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 	}
 	.title-card h3 {
-	    font-size: 24px;
+		font-size: 24px;
 	}
 	.statistk-wrapper .content-img {
-	    width: 41.66666667%;
-	    padding-right: 15px;
-	}
-	.statistk-wrapper .content-statistk {
-	    width: 58.33333333%;
-	    padding-left: 30px;
-	}
-	.content-statistk .heading-statistk {
-	    width: 75%;
-	}
-	.testi-wrapper .col-heading{
 		width: 41.66666667%;
 		padding-right: 15px;
 	}
-	.testi-wrapper .col-slider-testi{
-	    padding-left: 15px;
-	     width: 58.33333333%;
+	.statistk-wrapper .content-statistk {
+		width: 58.33333333%;
+		padding-left: 30px;
+	}
+	.content-statistk .heading-statistk {
+		width: 75%;
+	}
+	.testi-wrapper .col-heading {
+		width: 41.66666667%;
+		padding-right: 15px;
+	}
+	.testi-wrapper .col-slider-testi {
+		padding-left: 15px;
+		width: 58.33333333%;
 	}
 	.testi-wrapper .col-heading .heading-testi {
-	    font-size: 32px;
+		font-size: 32px;
 	}
 	.content-banner2 .heading {
-	    font-size: 30px;
-	    font-family: var(--heading-font);
-	    font-weight: 700;
+		font-size: 30px;
+		font-family: var(--heading-font);
+		font-weight: 700;
 	}
 	.content-banner2 .subheading {
-	    margin-top: 18px;
+		margin-top: 18px;
 	}
 	.content-banner2 .disc {
-	    font-size: 29px;
-	    padding: 15px 35px;
-	    margin-top: 40px;
+		font-size: 29px;
+		padding: 15px 35px;
+		margin-top: 40px;
 	}
 	.banner2-wrapper {
-	    padding: 5rem 6rem;
+		padding: 5rem 6rem;
 	}
 	.footer-wrapper {
-	    justify-content: flex-start;
+		-webkit-box-pack: start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
 	}
 	.col-1-footer .copy {
-	    margin-top: 30px;
+		margin-top: 30px;
 	}
 	.col-1-footer {
-	    width: 50%;
-	    margin-bottom: 30px;
+		width: 50%;
+		margin-bottom: 30px;
 	}
 	.col-2-footer {
-	    width: 25%;
+		width: 25%;
 	}
 	.col-3-footer {
-	    width: 25%;
+		width: 25%;
 	}
 	.col-4-footer {
-	    width: 25%;
+		width: 25%;
 	}
 	.col-4-footer {
-	    width: 25%;
+		width: 25%;
 	}
 }
 
-@media screen and (max-width: 1199px){
-	.container{
+@media screen and (max-width: 1199px) {
+	.container {
 		max-width: 960px;
 	}
-	.navbar .nav-wrapper{
+	.navbar .nav-wrapper {
 	    gap: 40px;
-	    padding: 30px 0px;
+	    padding: 5px 0px;
 	}
 	.nav-wrapper .menu-wrapper {
-	    gap: 30px;
+		gap: 30px;
 	}
-	.menu-wrapper .menu .menu-link{
+	.menu-wrapper .menu .menu-link {
 		font-size: 1rem;
 	}
 	.form-panel .btn-search {
-	    padding: 14px;
+		padding: 14px;
 	}
 	.content-left .form-panel {
-	    width: 100%;
-	    background: transparent;
-		border:0px;
+		width: 100%;
+		background: transparent;
+		border: 0px;
 		height: 100px;
 		margin-top: 100px;
 	}
-	.form-panel .form-location .loc, .form-panel .form-date .cal {
-	    font-size: 1.7rem;
+	.form-panel .form-location .loc,
+	.form-panel .form-date .cal {
+		font-size: 1.7rem;
 	}
 	.row2 .box-service {
-	   margin-bottom: 30px;
+		margin-bottom: 30px;
 	}
 	.title-card h3 {
-	    font-size: 20px;
+		font-size: 20px;
 	}
 	.content-statistk .label-statistk {
-	    text-align: center;
+		text-align: center;
 	}
 	.content-statistk .heading-statistk {
-	    width: 100%;
-	    text-align: center;
+		width: 100%;
+		text-align: center;
 	}
 	.content-statistk .subheading-statistk {
-	    width: 100%;
-	    text-align: center;
+		width: 100%;
+		text-align: center;
 	}
 	.content-statistk .angka-wrapper {
-	    width: 100%;
+		width: 100%;
 	}
 	.row2 .deatail-product {
-	    bottom: -34%;
+		bottom: -34%;
 	}
 	.banner2-wrapper {
-	    padding: 5rem 4rem;
+		padding: 5rem 4rem;
 	}
 }
 
-@media screen and (max-width: 991px){
-	.container{
+@media screen and (max-width: 991px) {
+	.container {
 		max-width: 720px;
 	}
-	section{
-	    margin-top: 100px;
+	section {
+		margin-top: 100px;
 	}
-	.nav-wrapper .menu-wrapper{
-	    position: absolute;
-	    top: 100%;
-	    left: 50%;
-	    width: 80%;
-	    background: var(--main-color);
-	    transform: translateX(-50%);
-	    display: block;
-	    text-align: center;
-	    border-radius: 10px;
-	    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-	    transition: .5s ease-in-out;
-	}
-	.nav-wrapper .menu-wrapper.active{
-		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	.nav-wrapper .menu-wrapper {
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		width: 80%;
+		background: var(--main-color);
+		-webkit-transform: translateX(-50%);
+		    -ms-transform: translateX(-50%);
+		        transform: translateX(-50%);
+		display: block;
+		text-align: center;
+		border-radius: 10px;
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+		        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+		-webkit-transition: .5s ease-in-out;
+		-o-transition: .5s ease-in-out;
 		transition: .5s ease-in-out;
 	}
-	.menu-toggle.bx-x{
-		transform: rotate(360deg);
+	.nav-wrapper .menu-wrapper.active {
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+		        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+		-webkit-transition: .5s ease-in-out;
+		-o-transition: .5s ease-in-out;
+		transition: .5s ease-in-out;
+		padding-bottom: 50px;
+	}
+	.menu-toggle.bx-x {
+		-webkit-transform: rotate(360deg);
+		    -ms-transform: rotate(360deg);
+		        transform: rotate(360deg);
+		-webkit-transition: .3s;
+		-o-transition: .3s;
 		transition: .3s;
 	}
-	.nav-wrapper .menu-wrapper .menu{
+	.nav-wrapper .menu-wrapper .menu {
 		display: block;
 	}
 	.nav-wrapper .menu-wrapper .menu {
-	    gap: 30px;
+		gap: 30px;
 	}
-	.menu-wrapper .menu .menu-item{
-	    margin: 30px 0px;
+	.menu-wrapper .menu .menu-item {
+		margin: 30px 0px;
 	}
-	.menu .menu-item .menu-link{
+	.menu .menu-item .menu-link {
 		color: #fff;
 	}
-	.nav-wrapper .menu-toggle{
+	.nav-wrapper .menu-toggle {
 		display: initial;
 		font-size: 2.5rem;
+		-webkit-transition: .3s;
+		-o-transition: .3s;
 		transition: .3s;
 		color: var(--main-color);
 	}
 	.home-wrapper .content-left {
-	    flex: 0 0 100%;
-	    text-align: center;
-	    margin-bottom: 30px;
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 100%;
+		        flex: 0 0 100%;
+		text-align: center;
+		margin-bottom: 30px;
 	}
 	.home-wrapper .heading {
-	    font-size: 3rem;
+		font-size: 3rem;
 	}
 	.home-wrapper .subheading {
-	    max-width: 85%;
-	    margin: 25px auto;
+		max-width: 85%;
+		margin: 25px auto;
 	}
 	.home-wrapper .box-wrapper {
-	    width: 55%;
-	    justify-content: space-between;
-	    margin: 0px auto;
+		width: 55%;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		margin: 0px auto;
 	}
 	.content-left .form-panel {
-	    width: 80%;
-	    margin-left: auto;
-	    margin-right: auto;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.home-wrapper .content-right {
-	    flex: 0 0 100%;
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 100%;
+		        flex: 0 0 100%;
 	}
 	.home-wrapper .content-left .sugestion {
-	    margin-right: auto;
-	    margin-left: auto;
-	    max-width: 80%;  
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 80%;
 	}
 	.row2 .deatail-product {
-	    bottom: -54%;
+		bottom: -54%;
 	}
 	.banner1 .heading {
-	    font-size: 30px;
-	    font-family: var(--heading-font);
+		font-size: 30px;
+		font-family: var(--heading-font);
 	}
 	.statistk-wrapper .content-img {
-	    width: 100%;
-	    margin-bottom: 30px;
+		width: 100%;
+		margin-bottom: 30px;
 	}
 	.statistk-wrapper .content-statistk {
-	    width: 100%;
-	    font-size: 37px;
+		width: 100%;
+		font-size: 37px;
 	}
-	.box-angka p{
+	.box-angka p {
 		font-size: 30px;
 	}
 	.testi-wrapper .col-heading {
-	    width: 100%;
-	    text-align: center;
-	    margin-bottom: 30px;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 30px;
 	}
 	.testi-wrapper .col-heading .heading-testi {
-	    font-size: 34px;
+		font-size: 34px;
 	}
 	.testi-wrapper .col-slider-testi {
-	    width: 100%;
+		width: 100%;
 	}
 	.banner2-wrapper {
-	    flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.content-banner2 {
-	    text-align: center;
+		text-align: center;
 	}
 	.content-banner2 {
-	    display: flex;
-	    flex-direction: column;
-	    align-items: center;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 	.btn-banner2 {
-	    margin-top: 60px;
+		margin-top: 60px;
 	}
 	.col-2-footer {
-	    text-align: center;
+		text-align: center;
 	}
 	.col-3-footer {
-	    text-align: center;
+		text-align: center;
 	}
 	.banner1 {
-	    margin: 100px auto;
+		margin: 100px auto;
 	}
 }
 
-@media screen and (max-width: 767px){
-
-	.container{
+@media screen and (max-width: 767px) {
+	.container {
 		max-width: 540px;
 	}
+	.menu-wrapper .btn-member {
+	    font-size: 0.875rem;
+	    padding: 15px 30px;
+	}
 	.home-wrapper .box-wrapper {
-	    width: 71%;
+		width: 71%;
 	}
 	.content-left .form-panel {
-	    width: 90%;
+		width: 90%;
 	}
 	.row1 .heading-product {
-	    font-size: 34px;
+		font-size: 34px;
 	}
 	.banner1 {
-	    padding: 40px 40px;
-	    flex-direction: column;
+		padding: 40px 40px;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.banner1 .btn-book {
-	    margin-top: 30px;
+		margin-top: 30px;
 	}
 	.row2 .deatail-product {
-	    bottom: -28%;
+		bottom: -28%;
 	}
 	.title-card h3 {
-	    font-size: 28px;
+		font-size: 28px;
 	}
 	.content-statistk .angka-wrapper {
-	    flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.angka-wrapper .box-angka {
-	    margin-bottom: 20px;
+		margin-bottom: 20px;
 	}
 	.banner2-wrapper {
-	    padding: 5rem 3rem;
+		padding: 5rem 3rem;
 	}
 	.footer {
-	    margin-top: 130px;
+		margin-top: 130px;
 	}
 	.col-1-footer,
 	.col-2-footer,
 	.col-3-footer,
 	.col-4-footer,
 	.col-5-footer,
-	.col-6-footer{
-	    width: 100%;
-	    text-align: center;
-	    margin-bottom: 30px;
+	.col-6-footer {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 30px;
 	}
 	.col-1-footer .subheading-footer {
-	    margin-left: auto;
-	    margin-right: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.form-input {
+		margin-right: auto;
+		width: 65%;
+		margin-left: auto;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.container {
+		max-width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	section {
+	    margin-top: 70px;
+	}
+	.banner1 .btn-book a {
+	    padding: 15px 35px;
+	}
+	.home-wrapper .heading {
+	    font-size: 2.5rem;
+	}
+	.navbar .nav-wrapper {
+	    padding: 5px 15px;
+	}
+	.home-wrapper .content-left {
+	    width: 100%;
+	}
+	.form-panel .title-form {
+	    width: 170px;
+	}
+	.content-left .form-panel {
+	    width: 100%;
+	    flex-direction: column;
+	}
+	.home-wrapper .box-wrapper {
+	    width: 100%;
+	}
+	.content-left .form-panel {
+	    height: 220px;
+	    flex-direction: column;
+	    justify-content: center;
+	}
+	.form-date {
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	}
+	.title-form {
+	    display: none;
+	}
+	.location p,
+	.date p{
+	    margin-bottom: 10px;
+	}
+	.form-date input {
+	    border: none;
+	    text-align: center;
+	    padding: 5px 10px;
+	}
+	.form-panel .btn-search {
+	    padding: 11px;
+	    margin-top: 10px;
+	}
+	.service-wrapper .heading-service {
+	    font-size: 2rem;
+	}
+	.row1 .heading-product {
+	    font-size: 32px;
+	}
+	.banner1 .heading {
+	    font-size: 26px;
+	}
+	.banner1 h3 {
+	    font-size: 18px;
+	}
+	.content-statistk .heading-statistk {
+	    font-size: 32px;
+	}
+	.testi-wrapper .col-slider-testi {
+		padding-left: 0px;
+	}
+	section.banner2 {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.product-wrapper .row1 {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.title-product {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.toggle-slider {
+		width: 100%;
+		text-align: right;
+	}
+	.content-banner2 .disc {
+		width: auto;
+		font-size: 20px;
+		padding: 15px 60px;
+	}
+	.btn-banner2 .btn-regis {
+		font-size: 18px;
+		padding: 16px 40px;
+	}
+	.footer {
+		margin-top: 75px;
+		overflow: hidden;
+	}
+	.footer-wrapper {
+		padding-bottom: 60px;
 	}
 	.form-input {
 	    margin-right: auto;
-	    width: 65%;
+	    width: 75%;
 	    margin-left: auto;
 	}
-
+	.banner1.container {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.service-wrapper .row2 {
+	    margin-top: 70px;
+	}
+	.product-wrapper .row2 {
+	    margin-top: 70px;
+	}
+	.banner1 {
+	    margin: 70px auto;
+	}
 }
 
-@media screen and (max-width: 575px){
-	.container {
-	    max-width: 100%;
-	    padding-left: 15px;
-	    padding-right: 15px;
+@media screen and (max-width: 575px) {
+	.form-input {
+	    width: 85%;
 	}
-	.navbar .nav-wrapper {
-	    padding: 30px 15px;
+}
+
+@media screen and (max-width: 430px) {
+	.form-input {
+	    width: 100%;
 	}
-	.testi-wrapper .col-slider-testi {
-	    padding-left: 0px;
+}
+
+@media screen and (max-width: 370px) {
+	.form-input {
+	    width: 100%;
 	}
-	section.banner2 {
-	    padding-left: 15px;
-	    padding-right: 15px;
-	}
-	.product-wrapper .row1 {
+}
+
+@media screen and (max-width: 370px) {
+	.form-input {
+	    width: 100%;
+	    display: flex;
 	    flex-direction: column;
 	}
-	.title-product {
-	    text-align: center;
-	    margin-bottom: 30px;
+	.form-input .btn-footer {
+	    margin-top: 20px;
 	}
-    .toggle-slider {
-	    width: 100%;
-	    text-align: right;
+	input[type="text"]::placeholder{
+		text-align: center;
 	}
-	.content-banner2 .disc {
-	    width: auto;
-	    font-size: 20px;
-	    padding: 15px 60px;
-	}
-	.btn-banner2 .btn-regis {
-	    font-size: 18px;
-	    padding: 16px 40px;
-	}
-	.footer {
-	    margin-top: 75px;
-	    overflow: hidden;
-	}
-	.footer-wrapper {
-	    padding-bottom: 60px;
-	}
-	.banner1.container {
-	    margin-left: 15px;
-	    margin-right: 15px;
-	}
-		
 }

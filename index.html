@@ -17,7 +17,7 @@
 	<body>
 
 		<header>
-			<nav class="navbar">
+			<nav class="navbar header-sticky">
 				<div class="container nav-wrapper">
 					<a href="#" class="logo">Tour<span>avel</span></a>
 					<div class="menu-wrapper">
@@ -54,7 +54,7 @@
 						<div class="form-panel">
 							<img src="assests/images/form.png" alt="form-bg">
 							<div class="title-form">
-								<p>Get the schedule</p>
+								<a href="#">Get the schedule</a>
 							</div>
 							<div class="form-location">
 								<i class='bx bxs-map loc'></i>
@@ -74,9 +74,9 @@
 	                                <input type="date">	
 								</div>
 							</div>
-							<div class="btn-search">
+							<a class="btn-search" href="#">
 								<i class='bx bx-search'></i>
-							</div>
+							</a>
 					   </div>
 					   <p class="sugestion">Popular search : Kuta beach, Raja Ampat Beach, Borobudur temple</p>
 					</div>
@@ -581,24 +581,53 @@
 	    </footer>
 	    <!-- Footer End -->
 
+	    <!-- Scroll to Top -->
+	    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bx-up-arrow-alt'></i></button>
+	    <!-- Scroll to Top -->
+	    
+	    <script src="assests/js/jquery.min.js"></script>
 		<script src="assests/js/swiper-bundle.min.js"></script>
 		<script src="assests/js/main.js"></script>
 		<script>
-			 var swiper = new Swiper('.mySwiper', {
-		      grabCursor: true,
-		      spaceBetween: 30,
-		      centeredSlides: false,
-		      slidesPerView: '3',
-		      pagination: {
-		        el: '.swiper-pagination',
-		      },
-		      breakpoints: {
+
+			//Scroll to Top
+			var mybutton = document.getElementById("myBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function () {
+			  scrollFunction()
+			};
+			
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			    mybutton.style.display = "block";
+			  } else {
+			    mybutton.style.display = "none";
+			  }
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			  document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;
+			} 
+
+			// Product Swiper
+			var swiper = new Swiper('.mySwiper', {
+			  grabCursor: true,
+			  spaceBetween: 30,
+			  centeredSlides: false,
+			  slidesPerView: '3',
+			  pagination: {
+			    el: '.swiper-pagination',
+			  },
+			  breakpoints: {
 			    // when window width is >= 320px
 			    320: {
 			      slidesPerView: 1
 			    },
-			   
-			   	// when window width is >= 768px
+
+			    // when window width is >= 768px
 			    768: {
 			      slidesPerView: 2
 			    },
@@ -608,28 +637,30 @@
 			      slidesPerView: 3
 			    }
 			  },
-		       navigation: {
-		        nextEl: '.bxs-chevron-right-circle',
-		        prevEl: '.bxs-chevron-left-circle',
-		      },
-		      speed:1500,
-		      loop: true
-		    });
+			  navigation: {
+			    nextEl: '.bxs-chevron-right-circle',
+			    prevEl: '.bxs-chevron-left-circle',
+			  },
+			  speed: 1500,
+			  loop: true
+			});
 
+			// Testimonial Swiper
 			var swiper = new Swiper('.mySwiperTesti', {
-		      slidesPerView: 'auto',
-		      spaceBetween: 30,
-		      pagination: {
-		        el: '.swiper-pagination',
-		        clickable: true,
-		      },
-		      speed:2000,
-		      loop: true,
-		      autoplay: {
-		        delay: 2500,
-		        disableOnInteraction: false,
-		      },
-		    });
+			  slidesPerView: 'auto',
+			  spaceBetween: 30,
+			  pagination: {
+			    el: '.swiper-pagination',
+			    clickable: true,
+			  },
+			  speed: 2000,
+			  loop: true,
+			  autoplay: {
+			    delay: 2500,
+			    disableOnInteraction: false,
+			  },
+			});
+
 		</script>
 	</body>
 </html>
