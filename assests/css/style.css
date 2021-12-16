@@ -92,8 +92,11 @@ nav.navbar {
     font-weight: 500;
     font-size: 1.25rem;
     color: var(--main-color);
+    transition: .3s ease;
 }
-
+.menu-wrapper .menu .menu-link:hover{
+    color: var(--second-color);
+}
 .menu-wrapper .menu .menu-link.active {
     font-weight: 700;
     color: var(--second-color);
@@ -287,8 +290,9 @@ nav.navbar {
 
 .form-location select {
     -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
     border: none;
     padding: 5px 10px;
 }
@@ -1027,5 +1031,37 @@ i.bx.bx-up-arrow-alt {
     vertical-align: middle;
 }
 
-
 /* Scroll to Top */
+
+/* Back Pulse */
+@-webkit-keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(32, 152, 209, 0.75);
+  }
+}
+@keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(32, 152, 209, 0.75);
+  }
+}
+/* Fade */
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: var(--main-color);
+  color: white;
+}
+
+
+
+
